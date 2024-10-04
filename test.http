@@ -1,0 +1,39 @@
+
+
+@baseUrl = https://pc99b9ks6e.execute-api.us-east-1.amazonaws.com/dev/
+
+// @baseUrl = http://localhost:3000
+
+### GET todos los personajes
+GET {{baseUrl}}/swapi/people HTTP/1.1
+
+
+### Crear un nuevo vehículo
+POST {{baseUrl}}/vehicles HTTP/1.1
+Content-Type: application/json
+
+{
+  "name": "X-Wing Starfighter",
+  "model": "T-65B",
+  "manufacturer": "Incom Corporation",
+  "pilots": [
+    {
+      "name": "Luke Skywalker",
+      "age": 23,
+      "weight": 77
+    },
+    {
+      "name": "Wedge Antilles",
+      "age": 25,
+      "weight": 80
+    }
+  ]
+}
+
+
+### GET todos los vehículos (paginados)
+GET {{baseUrl}}/vehicles?page=3&limit=1 HTTP/1.1
+
+### Get vehicle by ID
+GET {{baseUrl}}/vehicles/9jkd991 HTTP/1.1
+
