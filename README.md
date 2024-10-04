@@ -1,6 +1,6 @@
-# Softek Challenge - Star Wars API and Vehicle Management
+# Softtek Challenge - Star Wars API and Vehicle Management
 
-Este proyecto es una solución a un reto propuesto por Softek. Combina datos de la API de Star Wars (SWAPI) con un sistema personalizado de gestión de vehículos utilizando AWS DynamoDB.
+Este proyecto es una solución a un reto propuesto por Softtek. Combina datos de la API de Star Wars (SWAPI) con un sistema personalizado de gestión de vehículos utilizando AWS DynamoDB.
 
 ## Descripción del Proyecto
 

@@ -1,8 +1,8 @@
 
 
-@baseUrl = https://pc99b9ks6e.execute-api.us-east-1.amazonaws.com/dev/
+// @baseUrl = https://pc99b9ks6e.execute-api.us-east-1.amazonaws.com/dev/ Este es el despliegue en mi cuenta AWS
 
-// @baseUrl = http://localhost:3000
+@baseUrl = http://localhost:3000
 
 ### GET todos los personajes
 GET {{baseUrl}}/swapi/people HTTP/1.1
